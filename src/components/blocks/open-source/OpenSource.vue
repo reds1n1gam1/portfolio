@@ -37,6 +37,11 @@ type Project = {
 
 const projects: Ref<Project[]> = ref([
     {
+        link: 'https://swot-online.com/',
+        name: 'Side project — Vue.js, TypeScript, Vite  ',
+        description: 'Explored frontend architecture and UI patterns in a small web application'
+    },
+    {
         link: 'https://github.com/reds1n1gam1/w1251-decoder',
         name: 'Windows file decoding utility — JavaScript  ',
         description: 'Developed a small utility for decoding Windows-specific file formats.'

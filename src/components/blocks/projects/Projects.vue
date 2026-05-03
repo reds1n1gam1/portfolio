@@ -58,11 +58,6 @@ const projects: Ref<Project[]> = ref([
         description: 'Built the frontend and provided ongoing support and updates.',
     },
     {
-        link: 'https://swot-online.com/',
-        name: 'SWOT online tool',
-        description: 'Small web-based SWOT analysis tool from scratch using Vue 3 and TypeScript'
-    },
-    {
         link: 'https://jurekten.kz/',
         name: 'Gratitude sharing platform — Vue.js ',
         description: 'Developed the frontend for a web app allowing users to express and share gratitude.'
