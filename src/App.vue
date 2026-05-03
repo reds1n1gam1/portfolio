@@ -1,14 +1,9 @@
 <script setup lang="ts">
-import { IconExternalLinkFilled, IconBrandGithubFilled, IconBrandLinkedinFilled } from "@tabler/icons-vue";
-import {
-  Item,
-  ItemActions,
-  ItemContent,
-  ItemDescription,
-  ItemTitle,
-} from "@/components/ui/item";
+import { IconBrandGithubFilled, IconBrandLinkedinFilled } from "@tabler/icons-vue";
 import { Button } from '@/components/ui/button'
 import { Separator } from "@/components/ui/separator";
+import Projects from "./components/blocks/projects/Projects.vue";
+import OpenSource from "./components/blocks/open-source/OpenSource.vue";
 </script>
 
 <template>
@@ -60,21 +55,8 @@ import { Separator } from "@/components/ui/separator";
           <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">
             Projects
           </h4>
-          <div class="flex w-full max-w-md flex-col gap-4">
-            <Item variant="outline" as-child>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <ItemContent>
-                  <ItemTitle>External resource</ItemTitle>
-                  <ItemDescription>
-                    Opens in a new tab with security attributes.
-                  </ItemDescription>
-                </ItemContent>
-                <ItemActions>
-                  <IconExternalLinkFilled class="size-4" />
-                </ItemActions>
-              </a>
-            </Item>
-          </div>
+
+          <Projects />
         </section>
       </div>
 
@@ -83,21 +65,7 @@ import { Separator } from "@/components/ui/separator";
           <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">
             Open source
           </h4>
-          <div class="flex w-full max-w-md flex-col gap-4">
-            <Item variant="outline" as-child>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <ItemContent>
-                  <ItemTitle>External resource</ItemTitle>
-                  <ItemDescription>
-                    Opens in a new tab with security attributes.
-                  </ItemDescription>
-                </ItemContent>
-                <ItemActions>
-                  <IconExternalLinkFilled class="size-4" />
-                </ItemActions>
-              </a>
-            </Item>
-          </div>
+          <OpenSource />
         </section>
       </div>
     </div>
