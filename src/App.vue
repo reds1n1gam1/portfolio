@@ -16,11 +16,9 @@ import { Separator } from "@/components/ui/separator";
       <div>
         <section>
           <img src="" alt="" />
-          <h2
-            class="scroll-m-20 border-b pb-2 mb-4 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-          >
+          <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">
             Intro
-          </h2>
+          </h4>
           <p class="leading-7 [&:not(:first-child)]:mt-6">
             Frontend Engineer with 6+ years of experience building user-facing web
             applications. <br />
@@ -34,7 +32,7 @@ import { Separator } from "@/components/ui/separator";
         </section>
         <Separator class="my-4" />
         <section>
-          <h2>Links</h2>
+          <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">Links</h4>
           <div>github</div>
           <div>linkedin</div>
         </section>
@@ -42,11 +40,9 @@ import { Separator } from "@/components/ui/separator";
 
       <div>
         <section>
-          <h2
-            class="scroll-m-20 border-b pb-2 mb-4 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-          >
+          <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">
             Projects
-          </h2>
+          </h4>
           <div class="flex w-full max-w-md flex-col gap-4">
             <Item variant="outline" as-child>
               <a href="#" target="_blank" rel="noopener noreferrer">
@@ -67,11 +63,9 @@ import { Separator } from "@/components/ui/separator";
 
       <div>
         <section>
-          <h2
-            class="scroll-m-20 border-b pb-2 mb-4 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
-          >
+          <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">
             Open source
-          </h2>
+          </h4>
           <div class="flex w-full max-w-md flex-col gap-4">
             <Item variant="outline" as-child>
               <a href="#" target="_blank" rel="noopener noreferrer">
