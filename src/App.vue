@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ExternalLinkIcon } from "lucide-vue-next";
+import { IconExternalLinkFilled, IconBrandGithubFilled, IconBrandLinkedinFilled } from "@tabler/icons-vue";
 import {
   Item,
   ItemActions,
@@ -7,12 +7,13 @@ import {
   ItemDescription,
   ItemTitle,
 } from "@/components/ui/item";
+import { Button } from '@/components/ui/button'
 import { Separator } from "@/components/ui/separator";
 </script>
 
 <template>
   <div class="md:container md:mx-auto px-4 py-12">
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <div>
         <section>
           <img src="" alt="" />
@@ -20,9 +21,8 @@ import { Separator } from "@/components/ui/separator";
             Intro
           </h4>
           <p class="leading-7 [&:not(:first-child)]:mt-6">
-            Frontend Engineer with 6+ years of experience building user-facing web
-            applications. <br />
-            Strong focus on high-quality UI, pixel-perfect implementation, responsive
+            My name is Madi Saginaliyev. I am Frontend Engineer with 6+ years of experience building user-facing web
+            applications. Strong focus on high-quality UI, pixel-perfect implementation, responsive
             design and performance optimization
           </p>
           <p class="leading-7 [&:not(:first-child)]:mt-6">
@@ -33,8 +33,25 @@ import { Separator } from "@/components/ui/separator";
         <Separator class="my-4" />
         <section>
           <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">Links</h4>
-          <div>github</div>
-          <div>linkedin</div>
+          <div class="flex gap-x-2">
+            <div class="flex-initial">
+              <a href="https://github.com/reds1n1gam1" target="_blank">
+                <Button variant="outline" size="lg">
+                  <IconBrandGithubFilled size="48" />
+                  Github
+                </Button>
+              </a></ div>
+
+              <div class="flex-initial">
+                <a href="https://www.linkedin.com/in/saginaliyev-madi/" target="_blank">
+                  <Button variant="outline" size="lg">
+                    <IconBrandLinkedinFilled size="48" />
+                    Linkedin
+                  </Button>
+                </a>
+              </div>
+
+            </div>
         </section>
       </div>
 
@@ -53,7 +70,7 @@ import { Separator } from "@/components/ui/separator";
                   </ItemDescription>
                 </ItemContent>
                 <ItemActions>
-                  <ExternalLinkIcon class="size-4" />
+                  <IconExternalLinkFilled class="size-4" />
                 </ItemActions>
               </a>
             </Item>
@@ -76,7 +93,7 @@ import { Separator } from "@/components/ui/separator";
                   </ItemDescription>
                 </ItemContent>
                 <ItemActions>
-                  <ExternalLinkIcon class="size-4" />
+                  <IconExternalLinkFilled class="size-4" />
                 </ItemActions>
               </a>
             </Item>
