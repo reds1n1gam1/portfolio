@@ -37,10 +37,15 @@ type Project = {
 
 const projects: Ref<Project[]> = ref([
     {
-        link: 'https://swot-online.com/',
-        name: 'SWOT online tool',
-        description: 'small web-based SWOT analysis tool from scratch using Vue 3 and TypeScript'
-    }
+        link: 'https://github.com/reds1n1gam1/w1251-decoder',
+        name: 'Windows file decoding utility — JavaScript  ',
+        description: 'Developed a small utility for decoding Windows-specific file formats.'
+    },
+    {
+        link: 'https://gitlab.com/s1n1gam1-public-projects/RSADecrypt',
+        name: 'RSA decryption tool — Java  ',
+        description: 'Developed a utility for decrypting data using the RSA algorithm.'
+    },
 ])
 </script>
 
