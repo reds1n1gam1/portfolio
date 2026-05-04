@@ -7,7 +7,7 @@ import OpenSource from "./components/blocks/open-source/OpenSource.vue";
 </script>
 
 <template>
-  <div class="md:container md:mx-auto px-4 py-12">
+  <div class="md:container md:mx-auto px-4 py-12 xl:max-h-screen xl:overflow-y-hidden">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <div>
         <section>
@@ -50,7 +50,7 @@ import OpenSource from "./components/blocks/open-source/OpenSource.vue";
         </section>
       </div>
 
-      <div>
+      <div class="xl:max-h-screen xl:overflow-x-hidden sm:overflow-x-auto overflow-y-auto scrollbar-hide xl:pb-20">
         <section>
           <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">
             Projects
@@ -60,7 +60,7 @@ import OpenSource from "./components/blocks/open-source/OpenSource.vue";
         </section>
       </div>
 
-      <div>
+      <div class="xl:max-h-screen xl:overflow-x-hidden sm:overflow-x-auto overflow-y-auto scrollbar-hide">
         <section>
           <h4 class="scroll-m-20 text-xl font-semibold tracking-tight mb-4">
             Open source

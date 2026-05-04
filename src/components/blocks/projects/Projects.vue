@@ -34,14 +34,14 @@ type Project = {
 }
 
 const projects: Ref<Project[]> = ref([
-    {
-        name: 'Large-scale web application — Angular, TypeScript, RxJS',
-        description: 'Contributed to development of a production application, including feature implementation and UI improvements. Focused on performance, maintainability, animations, and cross-browser behavior '
-    },
-    {
-        name: 'Commercial web projects (10+ NDA) — Angular, TypeScript, RxJS, HTML, CSS  ',
-        description: 'Delivered multiple frontend projects. Focused on responsive, pixel-perfect UI, complex animations, and cross-browser compatibility. Worked with modern frontend architecture and reusable components'
-    },
+    // {
+    //     name: 'Large-scale web application — Angular, TypeScript, RxJS',
+    //     description: 'Contributed to development of a production application, including feature implementation and UI improvements. Focused on performance, maintainability, animations, and cross-browser behavior '
+    // },
+    // {
+    //     name: 'Commercial web projects (10+ NDA) — Angular, TypeScript, RxJS, HTML, CSS  ',
+    //     description: 'Delivered multiple frontend projects. Focused on responsive, pixel-perfect UI, complex animations, and cross-browser compatibility. Worked with modern frontend architecture and reusable components'
+    // },
     {
         link: 'https://bw.com.kz/',
         name: 'Company website — Vue.js, GSAP  ',
@@ -127,10 +127,10 @@ const projects: Ref<Project[]> = ref([
         name: 'Property website — HTML, CSS, JavaScript  ',
         description: 'Improved the frontend and added new features to extend functionality.'
     },
-    {
-        name: 'Tolqyn Podcast company website — Vue.js',
-        description: 'Developed the frontend for a company website focused on podcast content. (currently inactive)'
-    },
+    // {
+    //     name: 'Tolqyn Podcast company website — Vue.js',
+    //     description: 'Developed the frontend for a company website focused on podcast content. (currently inactive)'
+    // },
 ])
 
 </script>
