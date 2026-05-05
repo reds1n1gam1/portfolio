@@ -11,8 +11,8 @@
       creating modern web apps
     </h1>
     <p class="mt-5 max-w-prose text-muted-foreground sm:text-lg">
-      A frontend developer based in the Kazakhstan. I'm passionate about building modern
-      web applications using Vue, Angular and Tailwind CSS
+      A frontend developer based in the Kazakhstan. I'm passionate about
+      building modern web applications using Vue, Angular and Tailwind CSS
     </p>
 
     <div class="flex gap-x-2 mt-8">
@@ -38,7 +38,10 @@
 </template>
 
 <script setup lang="ts">
-import { IconBrandGithubFilled, IconBrandLinkedinFilled } from "@tabler/icons-vue";
+import {
+  IconBrandGithubFilled,
+  IconBrandLinkedinFilled,
+} from "@tabler/icons-vue";
 import { Button } from "@/components/ui/button";
 </script>
 
