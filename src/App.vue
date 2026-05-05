@@ -13,7 +13,7 @@ import Projects from "./components/projects/Projects.vue";
           class="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-pink-600">Frontend
           developer</span> creating modern web apps</h1>
       <p class="mt-5 max-w-prose text-muted-foreground sm:text-lg">
-        A frontend developer developer based in the Kazakhstan. I'm passionate about building modern web applications
+        A frontend developer based in the Kazakhstan. I'm passionate about building modern web applications
         using Vue, Angular and Tailwind CSS
       </p>
 
