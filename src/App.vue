@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { IconBrandGithubFilled, IconBrandLinkedinFilled } from "@tabler/icons-vue";
 import { Button } from '@/components/ui/button'
+import AboutMe from "./components/about-me/AboutMe.vue";
+import Projects from "./components/projects/Projects.vue";
 </script>
 
 <template>
@@ -35,5 +37,11 @@ import { Button } from '@/components/ui/button'
 
         </div>
       </div>
+
+      <Projects />
+
+      <AboutMe/>
+
+      
     </div>
 </template>
