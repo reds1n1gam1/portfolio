@@ -5,7 +5,7 @@
     <h1 class="max-w-4xl text-4xl font-extrabold md:text-5xl lg:text-6xl">
       Hi I'm a
       <span
-        class="text-transparent bg-clip-text bg-gradient-to-r from-rose-700 to-pink-600"
+        class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"
         >Frontend developer</span
       >
       creating modern web apps
