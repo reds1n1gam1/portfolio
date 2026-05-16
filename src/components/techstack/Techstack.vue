@@ -8,96 +8,11 @@
         </div>
       </div>
       <div class="flex flex-wrap gap-1.5">
-        <a target="_blank" href="https://nextjs.org">
+        <a v-for="item in techItems" target="_blank" :href="item.link">
           <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-orange-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Next.js</span>
-          </div> </a
-        ><a target="_blank" href="https://reactjs.org">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-teal-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">React</span>
-          </div> </a
-        ><a target="_blank" href="https://git-scm.com">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-blue-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Git</span>
-          </div> </a
-        ><a target="_blank" href="https://figma.com">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-blue-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Figma</span>
-          </div> </a
-        ><a target="_blank" href="https://www.mysql.com">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-blue-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">MySQL</span>
-          </div> </a
-        ><a target="_blank" href="https://www.typescriptlang.org">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-rose-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">TypeScript</span>
-          </div> </a
-        ><a target="_blank" href="https://www.docker.com">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-teal-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Docker</span>
-          </div> </a
-        ><a target="_blank" href="https://tailwindcss.com">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-green-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Tailwind CSS</span>
-          </div> </a
-        ><a target="_blank" href="https://www.framer.com/motion">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-blue-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Framer Motion</span>
-          </div> </a
-        ><a target="_blank" href="https://www.mongodb.com">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-fuchsia-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">MongoDB</span>
-          </div> </a
-        ><a target="_blank" href="https://wordpress.org">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-cyan-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Wordpress</span>
-          </div> </a
-        ><a target="_blank" href="https://convex.dev">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-purple-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">Convex</span>
-          </div> </a
-        ><a target="_blank" href="https://ui.shadcn.com">
-          <div
-            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80"
-          >
-            <div class="bg-purple-400 w-2 h-2 mr-2 rounded-full"></div>
-            <span class="font-mono">shadcn/ui</span>
+            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+            <div :class="item.circleClass"></div>
+            <span class="font-mono"> {{ item.name }} </span>
           </div>
         </a>
       </div>
@@ -107,6 +22,81 @@
 
 <script setup lang="ts">
 import { IconFileStack } from "@tabler/icons-vue";
+import { ref, type Ref } from "vue";
+
+type TechnologyItem = {
+  name: string;
+  link?: string;
+  circleClass?: string;
+};
+
+const techItems: Ref<TechnologyItem[]> = ref([
+  {
+    name: "Next.js",
+    link: "https://nextjs.org",
+    circleClass: "bg-orange-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "React",
+    link: "https://reactjs.org",
+    circleClass: "bg-teal-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "Git",
+    link: "https://git-scm.com",
+    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "Figma",
+    link: "https://figma.com",
+    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "MySQL",
+    link: "https://www.mysql.com",
+    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "TypeScript",
+    link: "https://www.typescriptlang.org",
+    circleClass: "bg-rose-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "Docker",
+    link: "https://www.docker.com",
+    circleClass: "bg-teal-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "Tailwind CSS",
+    link: "https://tailwindcss.com",
+    circleClass: "bg-green-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "Framer Motion",
+    link: "https://www.framer.com/motion",
+    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "MongoDB",
+    link: "https://www.mongodb.com",
+    circleClass: "bg-fuchsia-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "Wordpress",
+    link: "https://wordpress.org",
+    circleClass: "bg-cyan-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "Convex",
+    link: "https://convex.dev",
+    circleClass: "bg-purple-400 w-2 h-2 mr-2 rounded-full",
+  },
+  {
+    name: "shadcn/ui",
+    link: "https://ui.shadcn.com",
+    circleClass: "bg-purple-400 w-2 h-2 mr-2 rounded-full",
+  },
+]);
 </script>
 
 <style scoped></style>
