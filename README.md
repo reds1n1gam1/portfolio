@@ -12,3 +12,4 @@ Focus: UI, performance, and scalable frontend solutions
 - [ ] Add husky
 - [ ] Add eslint
 - [ ] Connect i18n
+- [ ] CI/CD test
