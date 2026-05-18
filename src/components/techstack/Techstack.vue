@@ -21,82 +21,12 @@
 </template>
 
 <script setup lang="ts">
+import { techList } from "@/shared/data/technologies";
+import type { TechnologyItem } from "@/shared/types/technology-item";
 import { IconFileStack } from "@tabler/icons-vue";
 import { ref, type Ref } from "vue";
 
-type TechnologyItem = {
-  name: string;
-  link?: string;
-  circleClass?: string;
-};
-
-const techItems: Ref<TechnologyItem[]> = ref([
-  {
-    name: "Next.js",
-    link: "https://nextjs.org",
-    circleClass: "bg-orange-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "React",
-    link: "https://reactjs.org",
-    circleClass: "bg-teal-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "Git",
-    link: "https://git-scm.com",
-    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "Figma",
-    link: "https://figma.com",
-    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "MySQL",
-    link: "https://www.mysql.com",
-    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "TypeScript",
-    link: "https://www.typescriptlang.org",
-    circleClass: "bg-rose-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "Docker",
-    link: "https://www.docker.com",
-    circleClass: "bg-teal-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "Tailwind CSS",
-    link: "https://tailwindcss.com",
-    circleClass: "bg-green-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "Framer Motion",
-    link: "https://www.framer.com/motion",
-    circleClass: "bg-blue-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "MongoDB",
-    link: "https://www.mongodb.com",
-    circleClass: "bg-fuchsia-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "Wordpress",
-    link: "https://wordpress.org",
-    circleClass: "bg-cyan-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "Convex",
-    link: "https://convex.dev",
-    circleClass: "bg-purple-400 w-2 h-2 mr-2 rounded-full",
-  },
-  {
-    name: "shadcn/ui",
-    link: "https://ui.shadcn.com",
-    circleClass: "bg-purple-400 w-2 h-2 mr-2 rounded-full",
-  },
-]);
+const techItems: Ref<TechnologyItem[]> = ref(techList);
 </script>
 
 <style scoped></style>

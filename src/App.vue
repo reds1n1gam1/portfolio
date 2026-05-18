@@ -11,7 +11,6 @@ enum Status {
 
 // provide('location', 'Astana, Kazakhstan')
 provide('location', 'Limassol, Cyprus')
-
 provide('status', Status.FREE)
 
 </script>
