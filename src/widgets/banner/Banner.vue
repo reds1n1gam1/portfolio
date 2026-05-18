@@ -11,7 +11,7 @@
       creating modern web apps
     </h1>
     <p class="mt-5 max-w-prose text-muted-foreground sm:text-lg">
-      A frontend developer based in the Kazakhstan. I'm passionate about
+      A frontend developer based in the {{location}}. I'm passionate about
       building modern web applications using Vue, Angular and Tailwind CSS
     </p>
 
@@ -43,6 +43,10 @@ import {
   IconBrandLinkedinFilled,
 } from "@tabler/icons-vue";
 import { Button } from "@/components/ui/button";
+import { inject } from "vue";
+
+
+const location = inject('location')
 </script>
 
 <style scoped></style>
