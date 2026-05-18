@@ -7,8 +7,8 @@ Focus: UI, performance, and scalable frontend solutions
 - [x] Refactor Tech Stack
 - [x] Refactor Status
 - [x] Refactor Projects
-- [ ] Write correct Tech Stack
-- [ ] Write correct Projects
+- [x] Write correct Tech Stack
+- [x] Write correct Projects
 - [ ] Add husky
 - [ ] Add eslint
 - [ ] Connect i18n
