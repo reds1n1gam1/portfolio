@@ -14,7 +14,7 @@
           <p>Location</p>
         </div>
       </div>
-      <p class="text-sm text-primary">{{ LOCATION }}</p>
+      <p class="text-sm text-primary">{{ location }}</p>
     </div>
   </div>
 </template>
@@ -22,7 +22,7 @@
 <script setup lang="ts">
 import { inject } from 'vue';
 
-const LOCATION = inject('location')
+const location = inject('location')
 </script>
 
 <style scoped></style>
