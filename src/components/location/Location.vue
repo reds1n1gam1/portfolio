@@ -20,7 +20,8 @@
 </template>
 
 <script setup lang="ts">
-const LOCATION = "Astana, Kazakhstan";
+// const LOCATION = "Astana, Kazakhstan";
+const LOCATION = "Limassol, Cyprus";
 </script>
 
 <style scoped></style>

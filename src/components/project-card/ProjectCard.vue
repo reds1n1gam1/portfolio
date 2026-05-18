@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg border bg-card text-card-foreground shadow-sm h-full group">
+  <div v-if="project.enabled" class="rounded-lg border bg-card text-card-foreground shadow-sm h-full group">
     <div class="p-4">
       <a :href="project.link" target="_blank">
         <div v-if="project.image" class="overflow-hidden rounded-lg"><img alt="Image" loading="lazy" width="1280"
