@@ -2,6 +2,18 @@
 import Projects from "./widgets/projects/Projects.vue";
 import AboutMe from "./widgets/about-me/AboutMe.vue";
 import Banner from "./widgets/banner/Banner.vue";
+import { provide } from "vue";
+
+enum Status {
+  FREE = "Available for work!",
+  WORKING = "Not available for work!"
+}
+
+// provide('location', 'Astana, Kazakhstan')
+provide('location', 'Limassol, Cyprus')
+
+provide('status', Status.FREE)
+
 </script>
 
 <template>

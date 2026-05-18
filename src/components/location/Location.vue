@@ -20,8 +20,9 @@
 </template>
 
 <script setup lang="ts">
-// const LOCATION = "Astana, Kazakhstan";
-const LOCATION = "Limassol, Cyprus";
+import { inject } from 'vue';
+
+const LOCATION = inject('location')
 </script>
 
 <style scoped></style>

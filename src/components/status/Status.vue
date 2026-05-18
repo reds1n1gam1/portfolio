@@ -8,17 +8,16 @@
             class="relative inline-flex h-4 w-4 rounded-full bg-green-400"></span></span>
       </div>
       <h3 class="text-2xl font-semibold leading-none tracking-tight text-center">
-        {{ Status.FREE }}
+        {{ status }}
       </h3>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-enum Status {
-  FREE = "Available for work!",
-  WORKING = "Not available for work!"
-}
+import { inject } from 'vue';
+
+const status = inject('status')
 </script>
 
 <style scoped></style>
