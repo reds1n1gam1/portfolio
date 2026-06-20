@@ -2,16 +2,6 @@ import type { ProjectCardType } from "../types/project-card";
 
 export const projectsList: ProjectCardType[] = [
   {
-    link: "https://onai-tracker.com/",
-    enabled: true,
-    title: "Onai Tracker — Productivity & Time Tracking Platform",
-
-    image: '/images/onai-tracker.jpg',
-    technologies: ['HTML', 'CSS', 'Nuxt 3', 'TypeScript', 'Prisma', 'PostgreSQL', 'Docker', 'Pinia', 'Tailwind', 'shadcn-vue', 'Railway'],
-    description:
-      "Built a productivity platform that helps users prioritize tasks, track focus sessions, and analyze time spent across projects",
-  },
-  {
     link: "https://bw.com.kz/",
     enabled: true,
     title: "Company website",
@@ -52,6 +42,16 @@ export const projectsList: ProjectCardType[] = [
     image: '/images/ersai.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bitrix'],
     description: "Built the frontend and provided ongoing support and updates.",
+  },
+  {
+    link: "https://onai-tracker.com/",
+    enabled: true,
+    title: "Onai Tracker — Productivity & Time Tracking Platform",
+
+    image: '/images/onai-tracker.jpg',
+    technologies: ['HTML', 'CSS', 'Nuxt 3', 'TypeScript', 'Prisma', 'PostgreSQL', 'Docker', 'Pinia', 'Tailwind', 'shadcn-vue', 'Railway'],
+    description:
+      "Built a productivity platform that helps users prioritize tasks, track focus sessions, and analyze time spent across projects",
   },
   {
     link: "https://jandig-s.com/",
