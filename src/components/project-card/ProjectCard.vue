@@ -1,16 +1,14 @@
 <template>
-  <div v-if="project.enabled" class="rounded-lg border bg-card text-card-foreground shadow-sm h-full group">
+  <div v-if="project.enabled" class="rounded-lg border bg-card text-card-foreground shadow-sm h-full group cursor-pointer" @click="openProjectWebsite(project)">
     <div class="p-4">
-      <a :href="project.link" target="_blank">
         <div v-if="project.image" class="overflow-hidden rounded-lg"><img alt="Image" loading="lazy" width="1280"
             height="832" decoding="async" data-nimg="1" class="group-hover:scale-105 transition-all"
             style="color:transparent" :srcset="project.image" :src="project.image"></div>
-      </a>
     </div>
     <div class="flex flex-col space-y-1.5 p-6 pt-0 pb-3">
       <h3 class="text-2xl font-semibold leading-none tracking-tight">
         <div class="flex gap-2 items-center">
-          <a :href="project.link" target="_blank"> {{ project.title }} </a>
+          <p> {{ project.title }} </p>
         </div>
       </h3>
       <p v-if="project.description" class="text-sm text-muted-foreground">
@@ -30,10 +28,19 @@
 
 <script setup lang="ts">
 import type { ProjectCardType } from '@/shared/types/project-card';
+import { trackEvent } from '@/utils/analytics';
 
 defineProps<{
   project: ProjectCardType
 }>()
+
+function openProjectWebsite(project?: ProjectCardType) {
+trackEvent('portfolio_project_click', {
+    project_title: project?.title,
+  })
+
+window.open(project?.link, '_blank', 'noopener,noreferrer');
+}
 </script>
 
 <style scoped></style>
