@@ -2,6 +2,16 @@ import type { ProjectCardType } from "../types/project-card";
 
 export const projectsList: ProjectCardType[] = [
   {
+    link: "https://onai-tracker.com/",
+    enabled: true,
+    title: "Onai Tracker — Productivity & Time Tracking Platform",
+
+    image: '/images/onai-tracker.jpg',
+    technologies: ['HTML', 'CSS', 'Nuxt 3', 'TypeScript', 'Prisma', 'PostgreSQL', 'Docker', 'Pinia', 'Tailwind', 'shadcn-vue', 'Railway'],
+    description:
+      "Built a productivity platform that helps users prioritize tasks, track focus sessions, and analyze time spent across projects",
+  },
+  {
     link: "https://bw.com.kz/",
     enabled: true,
     title: "Company website",
@@ -122,12 +132,12 @@ export const projectsList: ProjectCardType[] = [
   {
     link: "https://swot-online.com/",
     enabled: true,
-    title: "Pet project ",
+    title: "SWOT Tool ",
 
     image: '/images/swotonline.jpg',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Vite', 'Vue.js'],
     description:
-      "Pet project to test language features",
+      "Built a decision-making tool that helps users evaluate options using SWOT analysis and structured scoring.",
   },
   {
     enabled: false,
@@ -166,23 +176,6 @@ export const projectsList: ProjectCardType[] = [
     image: '/images/.jpg',
     description:
       "Built the frontend with advanced animations and maintained the site post-launch.",
-  },
-  {
-    link: "https://cvzdarma.cz",
-    enabled: false,
-    image: "/_next/image?url=%2Fprojects%2Fcvzdarma-project.png&amp;w=3840&amp;q=100",
-    title: "Resume creator tool with AI",
-    description: "Create your resume in a few minutes. The tool will help you with the content and design.",
-    technologies: [
-      "Next.js",
-      "Tailwind CSS",
-      "Prisma",
-      "OpenAI",
-      "Server actions",
-      "shadcn / ui",
-      "nodemailer",
-      "Clerk",
-    ]
   },
   {
     title: 'Long-term Angular Product under NDA',

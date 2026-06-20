@@ -34,9 +34,9 @@
           href="mailto:madisaginaliyev@gmail.com"
         >
           <IconMailFilled class="mr-3" />madisaginaliyev@gmail.com</a
-        ><a href="https://github.com/reds1n1gam1">
+        ><a target="_blank" href="https://github.com/reds1n1gam1">
           <IconBrandLinkedinFilled class="mr-3" />reds1n1gam1</a
-        ><a href="https://www.linkedin.com/in/saginaliyev-madi/">
+        ><a  target="_blank" href="https://www.linkedin.com/in/saginaliyev-madi/">
           <IconBrandGithubFilled class="mr-3" />Madi Saginaliyev</a
         >
       </div>

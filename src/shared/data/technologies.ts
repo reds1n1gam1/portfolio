@@ -7,6 +7,11 @@ export const techList: TechnologyItem[] = [
         circleClass: "bg-blue-500 w-2 h-2 mr-2 rounded-full",
     },
     {
+        name: "Nuxt",
+        link: "https://nuxt.com/",
+        circleClass: "bg-blue-500 w-2 h-2 mr-2 rounded-full",
+    },
+    {
         name: "Vue.js",
         link: "https://vuejs.org",
         circleClass: "bg-blue-500 w-2 h-2 mr-2 rounded-full",
@@ -71,19 +76,16 @@ export const techList: TechnologyItem[] = [
         link: "https://git-scm.com",
         circleClass: "bg-orange-600 w-2 h-2 mr-2 rounded-full",
     },
-
     {
         name: "Vite",
         link: "https://vite.dev",
         circleClass: "bg-purple-400 w-2 h-2 mr-2 rounded-full",
     },
-
     {
         name: "Jest",
         link: "https://jestjs.io",
         circleClass: "bg-red-700 w-2 h-2 mr-2 rounded-full",
     },
-
     {
         name: "Figma",
         link: "https://www.figma.com",
