@@ -44,6 +44,16 @@ export const projectsList: ProjectCardType[] = [
     description: "Built the frontend and provided ongoing support and updates.",
   },
   {
+    link: "https://swot-online.com/",
+    enabled: true,
+    title: "SWOT Tool ",
+
+    image: '/images/swotonline.jpg',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Vite', 'Vue.js'],
+    description:
+      "Built a decision-making tool that helps users evaluate options using SWOT analysis and structured scoring.",
+  },
+  {
     link: "https://onai-tracker.com/",
     enabled: true,
     title: "Onai Tracker — Productivity & Time Tracking Platform",
@@ -128,16 +138,6 @@ export const projectsList: ProjectCardType[] = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     description:
       "Improved the frontend and added new features to extend functionality.",
-  },
-  {
-    link: "https://swot-online.com/",
-    enabled: true,
-    title: "SWOT Tool ",
-
-    image: '/images/swotonline.jpg',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Vite', 'Vue.js'],
-    description:
-      "Built a decision-making tool that helps users evaluate options using SWOT analysis and structured scoring.",
   },
   {
     enabled: false,
