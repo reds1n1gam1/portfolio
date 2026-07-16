@@ -10,7 +10,7 @@ enum Status {
 }
 
 // provide('location', 'Astana, Kazakhstan')
-provide('location', 'Limassol, Cyprus')
+provide('location', 'Astana, Kazakhstan')
 provide('status', Status.FREE)
 
 </script>
